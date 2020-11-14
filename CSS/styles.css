@@ -4,7 +4,11 @@ a   {
 body    {
     background-color: #FAC900;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px 18px 0px 18px;
+}
+.bodyOnboarding    {
+    background-color: #FAC900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 18px 0px 18px;
 }
 .centerLogo   {
     display: flex;
@@ -12,8 +16,13 @@ body    {
 }
 .Logo {
     max-width: 200px;
-    margin-top: 40px;
+    margin-top: 90px;
     padding-bottom: 30px;
+}
+.logoHrzl {
+    width: 200px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 .btn {
     margin-bottom: 15px;
@@ -33,4 +42,23 @@ body    {
     font-family: Arial;
     font-size: 35px;
     padding-bottom: 10px;
+}
+#hamburger  {
+    width: 35px;
+}
+#phoneLink  {
+    width: 45px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+#activities {
+    display: flex;
+    justify-items: flex-end;
+}
+.tip    {
+    background-image: linear-gradient(to bottom, rgba(148,42,159,1), rgba(74,21,80,1));
+    height: 145px;
+    border-bottom-left-radius: 44px;
+    border-top-left-radius: 44px;
 }
