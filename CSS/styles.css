@@ -24,6 +24,12 @@ body    {
     margin-top: 10px;
     padding-bottom: 10px;
 }
+
+.notificationStyle {
+    background-color: #FAC900;
+    border: none;
+    justify-content: end;
+}
 .btn {
     margin-bottom: 15px;
     background-color: #2766A7;
@@ -62,3 +68,45 @@ body    {
     border-bottom-left-radius: 44px;
     border-top-left-radius: 44px;
 }
+
+.footerButtons {
+    align-items: center;
+}
+
+.fa-circle {
+    color: #2766A7;
+    align-items: center;
+    justify-items: center;
+}
+
+.footerButtonText {
+    justify-items: center;
+    align-items: space-around;
+    display: block;
+    padding-top: 60px;
+}
+
+.bottomNav {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0pximportant!;
+    background-color: #F6A623;
+    border-top-left-radius: 44px;
+    border-top-right-radius: 44px;
+    font-size: 0.5em;
+    margin: auto;
+    height: 15vh;
+}
+
+.iconBlock {
+    display: inline-block;
+    text-align: center;
+}
+
+.navItem {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-globe{text-shadow:1px 1px #942A9F}
