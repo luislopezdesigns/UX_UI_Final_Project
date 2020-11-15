@@ -43,7 +43,7 @@ body    {
     color: #942A9F;
     font-family: Roboto;
 }
-.h1 {
+h1 {
     color: #942A9F;
     font-family: Arial;
     font-size: 35px;
@@ -68,6 +68,7 @@ body    {
     border-bottom-left-radius: 44px;
     border-top-left-radius: 44px;
 }
+<<<<<<< HEAD
 
 .footerButtons {
     align-items: center;
@@ -110,3 +111,11 @@ body    {
 }
 
 .fa-globe{text-shadow:1px 1px #942A9F}
+=======
+.splashContent{
+    text-align: center;
+}
+.fas-icon-styles{
+    padding: 30px;
+}
+>>>>>>> ef038dc39c1160f7762872900ad9ad765342280b
