@@ -37,7 +37,7 @@ body    {
     color: #942A9F;
     font-family: Roboto;
 }
-.h1 {
+h1 {
     color: #942A9F;
     font-family: Arial;
     font-size: 35px;
@@ -61,4 +61,10 @@ body    {
     height: 145px;
     border-bottom-left-radius: 44px;
     border-top-left-radius: 44px;
+}
+.splashContent{
+    text-align: center;
+}
+.fas-icon-styles{
+    padding: 30px;
 }
