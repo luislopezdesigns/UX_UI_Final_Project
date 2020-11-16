@@ -42,14 +42,72 @@
         <p class="onboardSubtext" style="text-align: right;"><a class="onboardSubtext" href="login_screen_01.html">Already have an account?</a></p>
       </div>
 
-      <button type="submit" class="btn btn-primary col-sm-12"><a href="verificationEmail.html">CONTINUE</a></button>
+      <button type="submit" class="btn btn-primary col-sm-12"><a href="home_screen.html">CONTINUE</a></button>
       <p class="onboardSubtext centerLogo">OR</p>
 
     </form>
   </div>
-  <div class="row">
-    <div class="col-6"><button type="submit" class="btn btn-primary"><a href="ExternalSignup.html">FACEBOOK</a></button></div>
-    <div class="col-6"><button type="submit" class="btn btn-primary"><a href="ExternalSignup.html">TWITTER</a></button></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#facebookSignUpModal">
+          Facebook
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="facebookSignUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header centerHeader">
+                <i class="fab fa-facebook fa-lg fa-4x facebookModal"></i>
+              </div>
+              <div class="modal-body emailPadding">
+                <i class="fas fa-user fa-lg modalIcon"></i>
+                <p class="float-left">Your Name Here</p>
+                <i class="fas fa-ellipsis-v modalIconRight-sm"></i>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="home_screen.html" type="button" class="btn btn-primary">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Button trigger modal -->
+      
+      <div class="col-6">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#googleSignUpModal">
+          Google
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="googleSignUpModal" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <img class="modalLogo" src="images/Logo_vertical.png">
+              <div class="modal-header centerHeader">
+                <h3 class="modal-title" id="exampleModalLongTitle">Choose an account
+                <br><span>to continue to Super U!</span></h3>
+              </div>
+              <div class="modal-body emailPadding">
+                <i class="fas fa-user fa-lg modalIcon"></i>
+                <p>emailaddress&#64;gmail.com</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="home_screen.html" type="button" class="btn btn-primary">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Button trigger modal -->
+      </div>
+    </div>
   </div>
 </div>
 

@@ -16,32 +16,89 @@
     
 </head>
 <body class="bodyOnboarding">
+  
   <!-- Navigation -->
   <nav class="centerLogo">
     <img style="margin-top: 40px;" src="images/Logo_vertical.png">
   </nav>
 
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+      <p class="onboardSubtext" style="text-align: right;"><a class="onboardSubtext" href="forgot_password_screen.html">Forgot Password?</a></p>
+    </div>
+    <button type="submit" class="btn btn-primary col-sm-12">LOGIN</button>
+    <p class="onboardSubtext centerLogo">OR</p>
+  </form>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#facebookLoginModal">
+          Facebook
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="facebookLoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header centerHeader">
+                <i class="fab fa-facebook fa-lg fa-4x facebookModal"></i>
+              </div>
+              <div class="modal-body emailPadding">
+                <i class="fas fa-user fa-lg modalIcon"></i>
+                <p class="float-left">Your Name Here</p>
+                <i class="fas fa-ellipsis-v modalIconRight-sm"></i>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="home_screen.html" type="button" class="btn btn-primary">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-        <p class="onboardSubtext" style="text-align: right;"><a class="onboardSubtext" href="forgot_password_screen.html">Forgot Password?</a></p>
+      <!-- End Button trigger modal -->
+      
+      <div class="col-6">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#googleLoginModal">
+          Google
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="googleLoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <img class="modalLogo" src="images/Logo_vertical.png">
+              <div class="modal-header centerHeader">
+                <h3 class="modal-title" id="exampleModalLongTitle">Choose an account
+                <br><span>to continue to Super U!</span></h3>
+              </div>
+              <div class="modal-body emailPadding">
+                <i class="fas fa-user fa-lg modalIcon"></i>
+                <p>emailaddress&#64;gmail.com</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="home_screen.html" type="button" class="btn btn-primary">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <button type="submit" class="btn btn-primary col-sm-12">LOGIN</button>
-      <p class="onboardSubtext centerLogo">OR</p>
-    </form>
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-6"><button type="submit" class="btn btn-primary"><a href="ExternalSignup.html">FACEBOOK</a></button></div>
-        <div class="col-6"><button type="submit" class="btn btn-primary"><a href="ExternalSignup.html">TWITTER</a></button></div>
+      <!-- End Button trigger modal -->
       </div>
     </div>
+  </div>
 </body>
 
 <!-- jQuery and JS bundle w/ Popper.js -->
