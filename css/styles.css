@@ -252,3 +252,8 @@ h1 {
   .myHappyPlaceIcon{
       color: #2A9F51;
   }
+.cstmTabCol{
+    width: 100px;
+    margin-left: -10px;
+    margin-right: -50px;
+}
