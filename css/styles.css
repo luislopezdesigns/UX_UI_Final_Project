@@ -51,7 +51,6 @@ body    {
     border-radius: 4px;
     color: white;
     width: 100%;
-    height: 45px;
 }
 .splashDescritpion h1{
     color: #942A9F;
@@ -123,6 +122,9 @@ h5 {
     float: left;
 }
 
+.passwordResetLogo{
+    margin-top: 35px;
+}
 /* Tab Styles */
 
 .fa-globe{text-shadow:1px 1px #942A9F}
