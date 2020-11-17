@@ -85,10 +85,7 @@ h5 {
     justify-items: flex-end;
 }
 .tip    {
-    background-image: linear-gradient(to bottom, rgba(148,42,159,1), rgba(74,21,80,1));
-    height: 145px;
-    border-bottom-left-radius: 44px;
-    border-top-left-radius: 44px;
+    background-color: transparent;
 }
 
 .onBoardingTitle{
