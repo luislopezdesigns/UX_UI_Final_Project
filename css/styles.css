@@ -86,12 +86,40 @@ h1 {
     border-top-left-radius: 44px;
 }
 
-.verificationTitle{
+.onBoardingTitle{
     text-align: center;
 }
 
-
-
+.modal-title span{
+    font-size: 18px;
+}
+.centerHeader{
+    justify-content: center;
+}
+.modal-header h3{
+    text-align: center;
+}
+.modalIcon{
+    float: left;
+    padding-right: 10px;
+}
+.modalLogo{
+    width: 60px;
+    margin: 30px auto 0px;
+}
+.emailPadding{
+    padding: 1.5rem 2rem 0rem 2rem;
+}
+.facebookModal{
+    padding: 30px;
+    color: #3b5998;
+}
+.modalIconRight-sm{
+    float: right;
+}
+.float-left{
+    float: left;
+}
 
 /* Tab Styles */
 
