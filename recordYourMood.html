@@ -21,16 +21,15 @@
       margin-right: -15px;
     }
 
-    .tipCardHeader {
+    .moodCardHeader {
       background-image: linear-gradient(to bottom, rgba(148, 42, 159, 1), rgba(74, 21, 80, 1));
       margin-left: 20%;
       margin-bottom: 0px;
       border-radius: 44px 0px 0px 44px !important;
-      padding: 5px 5px 5px 15px;
       box-shadow: -3px 3px 12px 0px rgba(0, 0, 0, 0.40);
     }
 
-    .tipCardHeader h2,
+    .moodCardHeader h2,
     .card-body h2 {
       font-size: 28px;
       padding-left: 5px;
@@ -144,6 +143,35 @@
     .moodTextLabel{
       color: white;
     }
+    .cardWrapper{
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+    .active {
+      color: #2A9F51 !important;
+      background-color: transparent;
+}
+.emoteButt{
+  background-color: transparent;
+    color: #4A1550;
+    width: auto;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.emoteButt:not(:disabled):not(.disabled).active, .emoteButt:not(:disabled):not(.disabled):active, .show>.emoteButt.dropdown-toggle{
+  background-color: transparent;
+  border: none;
+  box-shadow: none!important;
+}
+.emoteButt:focus, .emoteButt:active{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.emoteButt p{
+  margin-bottom: 0px;
+}
   </style>
 
 </head>
@@ -163,10 +191,9 @@
     </button>
   </nav>
 
-  <!-- Accordian -->
-<div class="container">
+<div class="container cardWrapper">
   <div class="row">
-    <div class="col tipCardHeader">
+    <div class="col moodCardHeader">
         <div class="card-body moodTitle">
           <h2>How are you feeling?</h2>
         </div>
@@ -177,48 +204,72 @@
 <div class="container moodSelectionContainer">
   <div class="row">
     <div class="col-3 emoticon">
-      <i class="fas fa-tired fa-4x"></i>
-      <p>Tired</p>
+      <button type="button" id="btnTired" class="btn btn-primary emoteButt" ng-click="levelOU()">
+        <i class="fas fa-tired fa-4x"></i>
+        <p>Tired</p>
+       </button>      
     </div>
+
     <div class="col-3 emoticon">
-      <i class="fas fa-angry fa-4x"></i>
-      <p>Angry</p>
+      <button type="button" id="btnAngry" class="btn btn-primary emoteButt" ng-click="levelCD()">
+        <i class="fas fa-angry fa-4x"></i>
+        <p>Angry</p>
+      </button>
     </div>
+
     <div class="col-3 emoticon">
-      <i class="fas fa-frown fa-4x"></i>
-      <p>Unhappy</p>
+      <button type="button" id="btnUnhappy" class="btn btn-primary emoteButt" ng-click="levelD()"> 
+        <i class="fas fa-frown fa-4x"></i>
+        <p>Unhappy</p>
+      </button>
     </div>
+
     <div class="col-3 emoticon">
-      <i class="fas fa-sad-tear fa-4x"></i>
-      <p>Sad</p>
+      <button type="button" id="btnSadTear" class="btn btn-primary emoteButt" ng-click="levelE()">
+        <i class="fas fa-sad-tear fa-4x"></i>
+        <p>Sad</p>
+      </button>
     </div>
+
     <div class="col-3 emoticon">
-      <i class="fas fa-meh fa-4x"></i>
-      <p>Meh</p>
+      <button type="button" id="btnSadTear" class="btn btn-primary emoteButt" ng-click="levelF()">
+        <i class="fas fa-meh fa-4x"></i>
+        <p>Meh</p>
+      </button>
     </div>
+
     <div class="col-3 emoticon">
-      <i class="fas fa-smile fa-4x"></i>
-      <p>Content</p>
+      <button type="button" id="btnSmile" class="btn btn-primary emoteButt" ng-click="levelG()">
+        <i class="fas fa-smile fa-4x"></i>
+        <p>Content</p>
+      </button>
     </div>
+
     <div class="col-3 emoticon">
-      <i class="fas fa-grin fa-4x"></i>
-      <p>Happy</p>
+      <button type="button" id="btnGrin" class="btn btn-primary emoteButt" ng-click="levelH()">
+        <i class="fas fa-grin fa-4x"></i>
+        <p>Happy</p>
+      </button>
     </div>
+
     <div class="col-3 emoticon">
-      <i class="fas fa-grin-squint-tears fa-4x"></i>
-      <p>Ecstatic</p>
+      <button type="button" id="btnSadTear" class="btn btn-primary emoteButt" ng-click="levelI()">
+        <i class="fas fa-grin-squint-tears fa-4x"></i>
+        <p>Ecstatic</p>
+      </button>
     </div>
+
   </div>
 </div>
 
-<div class="container">
+<div class="container cardWrapper">
   <div class="row">
     <div class="col">
       
       <div class="card-body recordYourThoughts">
         <h2>Record your thoughts</h2>
         <div class="form-group moodTextLabel">
-          <label for="exampleFormControlTextarea1">Why are you feeling the way you are?</label>
+          <label for="exampleFormControlTextarea1">Why do you feel the way you do?</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
       </div>
@@ -303,5 +354,7 @@
   integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 <script src="js/index.js" type="text/javascript"></script>
+
+
 
 </html>
