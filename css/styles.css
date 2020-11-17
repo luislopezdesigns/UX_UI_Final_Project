@@ -66,6 +66,11 @@ h1 {
     font-size: 35px;
     padding-bottom: 10px;
 }
+
+h5 {
+    color: white;
+    font-size: 22px;
+}
 #hamburger  {
     width: 35px;
 }
