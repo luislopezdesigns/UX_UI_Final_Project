@@ -5,6 +5,18 @@ body    {
     background-color: #FAC900;
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
 }
+.welcomeContent{
+    text-align: center;
+    padding: 30px;
+}
+.welcomeDescription, .welcomeContent img{
+    padding: 30px;
+}
+
+.loginSignUpIcons i{
+    padding: 10px;
+}
+
 .bodyOnboarding    {
     margin: 0px 18px 0px 18px;
 }
@@ -67,6 +79,10 @@ h1 {
 
 
 /* Footer */
+
+.footerButtons {
+    align-items: center;
+}
 
 .footerButtons {
     align-items: center;
