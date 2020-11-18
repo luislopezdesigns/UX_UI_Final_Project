@@ -1,6 +1,10 @@
 a   {
     color: white;
 }
+
+a:hover {
+    color: inherit;
+}
 body    {
     background-color: #FAC900;
     font-family: Arial, Helvetica, sans-serif;
