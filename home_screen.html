@@ -12,6 +12,8 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
   <script src="https://kit.fontawesome.com/5c1df3cbd8.js" crossorigin="anonymous"></script>
 
   <style>
@@ -127,6 +129,22 @@
 
 <body>
 
+<body>
+    <div class="accordion" id="accordionExample">
+      <div class="card" style="background-color: transparent; border: none;">
+        <div class="card-header" id="headingOne" style="background-color: transparent;">
+          <h2 class="mb-0" style="font-family:'Arial';">
+            <button class="btn btn-link btn-block text-left tip" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <p style="font-size: 40px; padding: 0px 0px 0px 15px; color: white; text-decoration:none; border-bottom: transparent;">Tip of the day</p>
+              <p style="font-size:18px; text-align: right; color: white; text-decoration:none; border-bottom: transparent; padding-right: 10px;">Read More</p>
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body" style="padding-left: 25%;">
+            Sleep is really important for our physical and mental health. Sleep helps to regulate the chemicals in our brain that transmit information. These chemicals are important in managing our moods and emotions. If we don’t get enough sleep, we can start to feel depressed or anxious.          
+          </div>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">
@@ -156,6 +174,10 @@
           <p>Get Plenty of Sleep!</p>
         </div>
 
+    <div class="container col-sm-12" style="padding: 0px;">
+      <div class="row">
+        <div class="col-sm float-left" style="padding-left: 0px; padding-bottom: 20px;">
+          <img style="width: 80%;" src="images/HomeMood.png">
         <button class="btn btn-link btn-block text-left collapsed readMoreTip" type="button" data-toggle="collapse"
           data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           <p>Read More</p>
@@ -172,6 +194,16 @@
     </div>
   </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 float-right">
+          <a style="padding-right: 0px; width:75%;" href="activities_screen.html">
+          <img style="width: 100%;" src="images/HomeActivities.png">
+          </a>
+
+        </div>
+      </div>
+    </div>
 <a href="record_your_mood.html">
   <div class="card-body recordYourMoodCard">
     <h2>How you doin' ?</h2>
