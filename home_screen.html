@@ -16,120 +16,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-  <style>
-    .tipCard {
-      background-color: transparent;
-      border: none;
-      margin-right: -15px;
-    }
-
-    .tipCardHeader {
-      background-image: linear-gradient(to bottom, rgba(148, 42, 159, 1), rgba(74, 21, 80, 1));
-      margin-left: 20%;
-      margin-bottom: 0px;
-      border-radius: 44px 0px 0px 44px !important;
-      padding: 5px 5px 5px 15px;
-      box-shadow: -3px 3px 12px 0px rgba(0, 0, 0, 0.40);
-    }
-
-    .tipCardHeader h2,
-    .card-body h2 {
-      font-size: 28px;
-      padding-left: 5px;
-    }
-
-    .card-body h2 {
-      color: white;
-    }
-
-    .tip {
-      color: white;
-      text-decoration: none;
-    }
-
-    .tip:hover {
-      color: white;
-      text-decoration: none;
-    }
-
-    .readMoreTip {
-      color: white;
-      padding-left: 10px;
-      background-color: transparent;
-      margin-bottom: 0px;
-      text-decoration: underline;
-    }
-
-    .readMoreTip:hover {
-      color: white;
-    }
-
-    .readMoreTip p {
-      padding-left: 5px;
-    }
-
-    .tipCardSubtext {
-      padding: 0px 10px;
-      color: #FAC900;
-    }
-
-    .tipCardSubtext i {
-      float: left;
-      padding-right: 5px;
-    }
-
-    .tipCardSubtext p {
-      padding-top: 5px;
-    }
-
-    .recordYourMoodCard {
-      vertical-align: bottom;
-      border: 0;
-      padding-bottom: 0px;
-      background-image: linear-gradient(to bottom, #2A9F51, #155029);
-      border-top-right-radius: 44px;
-      border-bottom-right-radius: 44px;
-      margin-right: 20%;
-      box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.40);
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    .recordYourMoodCard img {
-      margin-left: -32px;
-      margin-bottom: -1px;
-    }
-
-    .activityCard {
-      vertical-align: bottom;
-      border: 0;
-      background-image: linear-gradient(to bottom, #10A1AF, #085158);
-      border-top-left-radius: 44px;
-      border-bottom-left-radius: 44px;
-      box-shadow: -3px 3px 12px 0px rgba(0, 0, 0, 0.40);
-      margin-left: 20%;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      margin-right: -15px;
-    }
-
-    .activityCard p,
-    .recordYourMoodCard p {
-      color: #FAC900;
-    }
-
-    .activityCard p {
-      margin-bottom: 5px;
-      padding-left: 10px;
-    }
-
-    .activityCard i {
-      padding: 5px 10px;
-      color: #FAC900;
-    }
-
-  </style>
-
 </head>
 
 <body>
@@ -137,7 +23,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light" style="padding-bottom: 10px;">
     <a class="navbar-brand" href="home_screen.html">
-      <img class="logoHrzl" ; src="images/Logo_hrzl.png"></a>
+      <img class="logoHrzl" src="images/logo_hrzl.svg">
+    </a>
     <span class="navbar-item">
       <a href="notifications.html">
         <img src="images/BellNotification.png" alt="">
@@ -145,65 +32,31 @@
     </span>
   </nav>
 
-  <!-- Accordian -->
-  <div class="accordion" id="accordionExample">
-    <div class="card tipCard">
-      <div class="card-header tipCardHeader" id="headingOne">
-        <button class="btn btn-link btn-block text-left collapsed tip" type="button" data-toggle="collapse"
-          data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <h2>Tip of the day</h2>
-        </button>
-        <div class="tipCardSubtext">
-          <i class="fas fa-bed fa-2x"></i>
-          <p>Get Plenty of Sleep!</p>
-        </div>
-        <div class="container col-sm-12" style="padding: 0px;">
-          <div class="row">
-            <div class="col-sm float-left">
-              <button class="btn btn-link btn-block text-left collapsed readMoreTip" type="button"
-                data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                <p>Read More</p>
-              </button>
-            </div>
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body" style="padding: 0px 60px 10px 30px; color: white;">
-                Sleep is really important for our physical and mental health. Sleep helps to regulate the chemicals in
-                our
-                brain that transmit information. These chemicals are important in managing our moods and emotions. If we
-                don’t
-                get enough sleep, we can start to feel depressed or anxious.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+ <!-- Card 1 -->
+  <div class="card bg-transparent text-white float-right rightCard">
+    <div class="card-body prplGradientCard">
+      <h5 class="card-title">Send a message to get help</h5>
+      <a href="#" class="card-link fa fa-comment-dots fa-3x whtIconML"></a>
     </div>
   </div>
+  <br>
 
-  <div class="cardWrapper">
-    <div class="card bg-transparent text-white float-left" style="width: 80%; margin-right: 20%; margin-top: 0px; margin-bottom: 0px;">
-      <div class="card-body" style="background-image: linear-gradient(to bottom, #2A9F51, #155029); border-top-right-radius: 44px; border-bottom-right-radius: 44px; padding-bottom: 0px;">
-        <h2>How you doin' ?</h2>
-        <p>Check out our mood tracker &gt;</p>
-        <img src="images/recordYourMoodIcons.png" style="margin-left: -30px; margin-bottom: -1px;">
-      </div>
+  <!-- Card 2 -->
+  <div class="card bg-transparent text-white float-left leftCard">
+    <div class="card-body grnGradientCard">
+      <h5 class="card-title">Call the Suicide Prevention Hotline</h5>
+      <a href="#" class="card-link fa fa-phone-alt fa-3x whtIconML"></a>
     </div>
   </div>
+  <br>
 
-  <div class="cardWrapper">
-      <div class="card-body activityCard">
-        <a href="#"></a>
-        <h2>Games &amp; Activities</h2>
-        <p>Play, engage and earn badges &gt;</p>
-        <i class="fas fa-palette fa-2x"></i>
-        <i class="fas fa-puzzle-piece fa-2x"></i>
-        <i class="fas fa-running fa-2x"></i>
-        <i class="fas fa-skiing fa-2x"></i>
-      </a>
-      </div>
+  <!-- Card 3 -->
+  <div class="card bg-transparent text-white float-right rightCard">
+    <div class="card-body aquaGradientCard">
+      <h5 class="card-title">Edit Contacts in Safety Plan</h5>
+      <a href="safety_plan.html" class="card-link fa fa-edit fa-3x whtIconML"></a>
+    </div>
   </div>
-
-
 
   <!-- Footer -->
   <div class="container fixed-bottom">

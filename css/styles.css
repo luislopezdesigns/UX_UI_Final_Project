@@ -294,3 +294,30 @@ h6 {
     margin-top: 4vh;
     margin-bottom: 4vh;
 }
+.rightCard{
+    width: 80%;
+    margin-left: 20%;
+}
+.leftCard{
+    width: 80%;
+    margin-right: 20%;
+}
+.prplGradientCard{
+    background-image: linear-gradient(to bottom, #942A9F, #4A1550);
+}
+.grnGradientCard{
+    background-image: linear-gradient(to bottom, #2A9F51, #155029);
+    border-top-right-radius: 44px; 
+    border-bottom-right-radius: 44px;
+}
+.aquaGradientCard{
+    background-image: linear-gradient(to bottom, #10A1AF, #085158); 
+}
+.prplGradientCard, .aquaGradientCard{
+    border-top-left-radius: 44px; 
+    border-bottom-left-radius: 44px;
+}
+.whtIconML{
+    color: white;
+    margin-left: 100px;
+}
