@@ -34,6 +34,7 @@ body    {
 .centerLogo   {
     display: flex;
     justify-content: center;
+
 }
 .Logo {
     max-width: 200px;
