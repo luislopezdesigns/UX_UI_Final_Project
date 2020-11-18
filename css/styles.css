@@ -1,6 +1,10 @@
 a   {
     color: white;
 }
+
+a:hover {
+    color: inherit;
+}
 body    {
     background-color: #FAC900;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,6 +15,7 @@ body    {
 }
 .welcomeContent img{
     padding: 30px;
+    width: 300px;
 }
 .welcomeDescription{
     padding-bottom: 30px;
@@ -29,6 +34,7 @@ body    {
 .centerLogo   {
     display: flex;
     justify-content: center;
+
 }
 .Logo {
     max-width: 200px;
