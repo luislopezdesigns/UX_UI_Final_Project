@@ -99,9 +99,8 @@ h6 {
 
 /* Logo Styles */
 .centerLogo   {
-    display: flex;
-    justify-content: center;
-
+    width: 70%;
+    margin: 0 auto;
 }
 .Logo {
     max-width: 200px;
