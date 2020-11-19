@@ -70,6 +70,17 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 .onBoardingTitle{
     text-align: center;
 }
+.mTop-30{
+    margin-top: 30px;
+}
+.mBot-30{
+    margin-bottom: 30px!important;
+}
+.descriptionTextWrapper{
+    line-height: 1em;
+    color: #942A9F;
+    text-align: center;   
+}
 
 /* Modal Styles */
 .modal-title span{
@@ -103,7 +114,11 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 /* Logo Styles */
 .centerLogo   {
     width: 70%;
-    margin: 0 auto;
+    margin: 30px auto 0px auto;
+}
+.loginCenterLogo{
+    width: 50%;
+    margin: 30px auto 20px auto;
 }
 .Logo {
     max-width: 200px;

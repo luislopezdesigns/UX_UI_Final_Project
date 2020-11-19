@@ -23,32 +23,34 @@
 <body class="bodyOnboarding">
 
   <!-- Navigation -->
-  <nav class="centerLogo">
-    <img style="margin-top: 40px;" src="images/logo_vertical.svg">
+  <nav class="loginCenterLogo">
+    <img src="images/logo_vertical.svg">
   </nav>
 
-  <div class="onBoardingTitle">
-    <h1>Login</h1>
-  </div>
-
-  <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-      <p class="onboardSubtext" style="text-align: right;">
-        <a class="onboardSubtext" href="passwordReset.html">Forgot Password?</a>
-      </p>
-    </div>
-    <a href="home_screen.html" type="button" class="btn btn-primary">Login</a>
-    <p class="onboardSubtext onboardCenterText">Or login with:</p>
-  </form>
-
   <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="onBoardingTitle">
+          <h1>Login</h1>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+            <p class="onboardSubtext" style="text-align: right;">
+              <a class="onboardSubtext" href="passwordReset.html">Forgot Password?</a>
+            </p>
+          </div>
+          <a href="home_screen.html" type="button" class="btn btn-primary">Login</a>
+          <p class="onboardSubtext onboardCenterText">Or login with:</p>
+        </form>
+      </div>
+    </div>
     <div class="row">
       <div class="col-6">
 
@@ -110,12 +112,15 @@
       </div>
       <!-- End Button trigger modal -->
     </div>
+
     <div class="row">
       <div class="col">
         <a href="sign_up_screen_01.html" class="onboardCenterText colorPrple">Back</a>
       </div>
     </div>
+    
   </div>
+  
 </body>
 
 <!-- jQuery and JS bundle w/ Popper.js -->
