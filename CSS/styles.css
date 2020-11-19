@@ -11,7 +11,6 @@ body {
 
 /* Header Styles */
 h1 {
-    color: #942A9F;
     font-family: Arial;
     font-size: 35px;
     padding-bottom: 10px;
@@ -24,7 +23,9 @@ h6 {
     color: white;
     font-size: 16px;
 }
-
+h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
+    color: #942A9F;
+}
 /* Welcome Styles */
 .welcomeContent{
     text-align: center;
@@ -53,14 +54,16 @@ h6 {
     margin: 0px 18px 0px 18px;
 }
 .splashDescritpion h1{
-    color: #942A9F;
     font-size: 24px;
 }
 .splashContent{
     text-align: center;
 }
+.onboardCenterText{
+    display: flex;
+    justify-content: center;
+}
 .onboardSubtext a{
-    color: #942A9F;
     font-family: Roboto;
     text-decoration: underline;
 }
