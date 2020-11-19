@@ -19,6 +19,7 @@
     <style>
       .tipCard {
         background-color: transparent;
+        border-radius: 0px;
         margin-top: 1vh;
         margin-bottom: 1vh;
       }
@@ -38,7 +39,7 @@
         padding-left: 5px;
       }
   
-      .card-body h2 {
+      .card-body h2, .readMoreTip p {
         color: white;
       }
   
@@ -48,7 +49,9 @@
         border: none;
         padding: 1.25em 0em 0em 0.5em;
       }
-  
+      .tip h2{
+        color: white;
+      }
       .tip:hover {
         color: white;
         text-decoration: none;
@@ -64,7 +67,7 @@
         background-color: transparent;
         margin-bottom: 0px;
         text-decoration: underline;
-        padding-left: 0.35em;
+        padding-left: 14px;
         padding-bottom: 0px;
       }
   
@@ -73,10 +76,6 @@
       }
       .readMoreTip:focus{
         box-shadow: none;
-      }
-  
-      .readMoreTip p {
-        padding-left: 5px;
       }
   
       .tipCardSubtext {
@@ -101,23 +100,36 @@
         margin-left: -32px;
         margin-bottom: -1px;
       }
-      .recordYourMoodCard p, .activitiesGamesCard p{
-        text-decoration: underline;
-      }
+  .recordYourMoodCard p, .activitiesGamesCard p{
+    text-decoration: underline;
+  }
+  .activitiesGamesCard{
+    margin-top: 1vh;
+    margin-bottom: 16vh;
+  }
+  .activitiesGamesCard i{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #FAC900;
+  }
+  .tip {
+    background-color: transparent;
+  }
+  .rotate{
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+  }
 
-      .activitiesGamesCard{
-        margin-top: 1vh;
-        margin-bottom: 16vh;
-      }
-      .activitiesGamesCard i{
-        padding-right: 10px;
-        padding-bottom: 10px;
-        color: #FAC900;
-      }
-    .tip {
-      background-color: transparent;
-    }
-    </style>
+  .rotate.up{
+      -ms-transform: rotate(-180deg);
+      -moz-transform: rotate(-180deg);
+      -webkit-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+  }
+
+  </style>
+
 </head>
 
 <body>
@@ -151,7 +163,7 @@
             <div class="col-sm float-left">
               <button class="btn btn-link btn-block text-left collapsed readMoreTip" type="button"
               data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                <p class="downArrow">Read More</p>
+                <p>Read More <i class="fas fa-angle-down fa-1x rotate"></i></p>
               </button>
             </div>
           </div>
