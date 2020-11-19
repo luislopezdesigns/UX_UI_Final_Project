@@ -141,9 +141,12 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     display: flex;
     justify-items: flex-end;
 }
-.tip    {
-    background-color: transparent;
-}
+.downArrow::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: " \f107";
+  }
+  .rightArrow::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: " \f105";
+  }
 
 .passwordResetLogo{
     margin-top: 35px;
@@ -257,14 +260,17 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 }
 .prplGradientCard{
     background-image: linear-gradient(to bottom, #942A9F, #4A1550);
+    box-shadow: 0px 3px 12px 0px rgba(24, 7, 26, 0.4);
 }
 .grnGradientCard{
     background-image: linear-gradient(to bottom, #2A9F51, #155029);
     border-top-right-radius: 44px; 
     border-bottom-right-radius: 44px;
+    box-shadow: 0px 3px 12px 0px rgba(7, 26, 13, 0.4);
 }
 .aquaGradientCard{
     background-image: linear-gradient(to bottom, #10A1AF, #085158); 
+    box-shadow: 0px 3px 12px 0px rgba(2, 24, 26, 0.4);
 }
 .prplGradientCard, .aquaGradientCard{
     border-top-left-radius: 44px; 
@@ -273,6 +279,55 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 .whtIconML{
     color: white;
     margin-left: 100px;
+}
+
+/* Mood Tracker */
+.moodTracker-topCard{
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+.moodHeader{
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+.active {
+    color: #2A9F51 !important;
+    background-color: transparent;
+}
+.emoteButt{
+    background-color: transparent;
+    color: #4A1550;
+    width: auto;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.emoteButt:not(:disabled):not(.disabled).active, .emoteButt:not(:disabled):not(.disabled):active, .show>.emoteButt.dropdown-toggle{
+    background-color: transparent;
+    border: none;
+    box-shadow: none!important;
+}
+.emoteButt:focus, .emoteButt:active{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.emoteButt p{
+    margin-bottom: 0px;
+}
+  .emoticon p{
+    padding: 5px;
+  }
+.moodTextArea{
+    border-bottom-right-radius: 24px;
+}
+.recordYourThoughtsContainer{
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+}
+.activityButton{
+    margin-top: 1vh;
+    margin-bottom: 16vh;
 }
 
 /* Footer */
@@ -309,6 +364,7 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     font-size: 0.5em;
     margin: auto;
     height: 14vh;
+    box-shadow: 0px 3px 12px 0px rgba(74, 21, 80, 0.8);
 }
 
 .iconBlock {
