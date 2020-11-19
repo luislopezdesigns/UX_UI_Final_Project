@@ -23,8 +23,10 @@
     width: 80%;
   }
   .cstmTabCol{
-    margin-left: -24px;
-    margin-top: 63px;
+    margin-left: -4px;
+    margin-top: 64px;
+    margin-bottom: -64px;
+    padding-left: 0px;
   }
   .cstm-col{
     padding-right: 0px;
@@ -39,8 +41,15 @@
     margin-right: unset;
     margin-left: unset;
   }
-  .safetyPlanText, .safetyPlanText h2, .safetyPlanText h3, .safetyPlanText p, .safetyPlanText label{
+  .safetyPlanText, .safetyPlanText h2, .safetyPlanText h3, .safetyPlanText h4, .safetyPlanText p, .safetyPlanText label{
     color: black;
+  }
+  .safetyPlanSubHeader{
+    color: black;
+    font-size: 20px;
+  }
+  .safetyPlanText p{
+    line-height: 1.35em;
   }
 </style>
 
@@ -69,14 +78,14 @@
         <div class="tab-content">
           <article class="tab-pane container active safetyPlanText" id="mySafetyPlan">
             <div class="safetyPlanIcon">
-              <i class="fas fa-clipboard-list fa-6x"></i>
+              <i class="fas fa-clipboard-list fa-4x"></i>
             </div>
-            <h2>My Safety Plan</h2>
+            <h4>My Safety Plan</h4>
             <p>
               Click the tabs to fill out your safety plan and reference it when you are having thoughts of suicide.
             </p>
             <section>
-              <h3>What is a Safety Plan?</h3>
+              <h5 class="safetyPlanSubHeader">What is a Safety Plan?</h5>
               <p>A safety plan is a written list of coping strategies and resources of support that can help you stay safe when you are having thoughts of suicide.</p>
               <p>
               It provides you with steps to follow to take your mind off things, and gives you a list of people to contact. You can fill this safety plan out yourself. If you have a therapist, you can create this safety plan with them.</p>
@@ -84,13 +93,13 @@
           </article>
           <article class="tab-pane container safetyPlanText" id="warningSigns">
             <div class="warningSignsIcon">
-              <i class="fas fa-exclamation-triangle fa-6x"></i>
+              <i class="fas fa-exclamation-triangle fa-4x"></i>
             </div>
-            <h2>Warning Signs</h2>
+            <h4>Warning Signs</h4>
+            <p>Why do you feel the way you do?</p>
             <section>
               <form>
                 <div class="form-group">
-                  <label for="warningSignsForm">Why do you feel the way you do?</label>
                   <input type="text" class="form-control" id="warningInput1" aria-describedby="emailHelp" placeholder="1.">
                 </div>
                 <div class="form-group">
@@ -105,9 +114,9 @@
           </article>
           <article class="tab-pane container safetyPlanText" id="myNetwork">
             <div class="myNetworkIcon">
-              <i class="fas fa-user-plus fa-6x"></i>
+              <i class="fas fa-user-plus fa-4x"></i>
             </div>
-            <h2>My Network</h2>
+            <h4>My Network</h4>
             <section>
               <p>
                 These are the people that you identify as individuals to contact when you are having thoughts of suicide. We strongly recommend listing at least one professional contact.
@@ -131,9 +140,9 @@
           </article>
           <article class="tab-pane container safetyPlanText" id="copingSkills">
             <div class="copingSkillIcon">
-              <i class="fas fa-universal-access fa-6x"></i>
+              <i class="fas fa-universal-access fa-4x"></i>
             </div>
-            <h2>Coping Skills</h2>
+            <h4>Coping Skills</h4>
             <section>
               <p>
                 List 3 activities that you can do to distract you from your thoughts of suicide.
@@ -157,9 +166,9 @@
           </article>
           <article class="tab-pane container safetyPlanText" id="myHappyPlace">
             <div class="myHappyPlaceIcon">
-              <i class="fas fa-laugh fa-6x"></i>
+              <i class="fas fa-laugh fa-4x"></i>
             </div>
-            <h2>My Happy Place</h2>
+            <h4>My Happy Place</h4>
             <section>
               <p>
                 List three things that are most important to you, things that make you happy or things that are worth living for.

@@ -205,6 +205,8 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
   
 .sideways-tabs.right-tabs .nav-link.active {
     background-color: #fefefe!important;
+    border: none;
+    color: black!important;
 }
 .sideways-tabs.right-tabs .nav-link:hover{
     color: initial;
@@ -231,7 +233,7 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     color: #F6A623;
   }
   .safetyPlanIcon i, .warningSignsIcon i, .myNetworkIcon i, .copingSkillIcon i, .myHappyPlaceIcon i{
-      margin: 30px;
+      margin: 20px;
   }
   .warningSignsIcon{
     color: #942A9F!important;
