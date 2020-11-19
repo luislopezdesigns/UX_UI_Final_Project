@@ -193,15 +193,6 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 .sideways-tabs.right-tabs .nav-link:hover{
     color: initial;
 }
-  .safetyPlanRow{
-      flex-wrap: nowrap;
-  }
-  .tabContainer{
-      width: 111%;
-      padding-right: 0px;
-      background-color: #fefefe;
-      height: 720px;
-  }
   .warningSignsDisabled{
       background-color: #942A9F!important;
   }
@@ -238,11 +229,7 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
   .myHappyPlaceIcon{
       color: #2A9F51;
   }
-.cstmTabCol{
-    width: 100px;
-    margin-left: -10px;
-    margin-right: -50px;
-}
+
 
 /* Card Styles */
 .card{
