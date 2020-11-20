@@ -15,6 +15,22 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/5c1df3cbd8.js" crossorigin="anonymous"></script>
 
+    <style>
+      .ccDescription{
+        line-height: 1.3em;
+      }
+      .crisisCard{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+      }
+      .crisisCardBottom{
+        margin-top: 1vh;
+        margin-bottom: 18vh;
+      }
+      .ccButton i{
+        padding-top: 2px;
+      }
+    </style>
 </head>
 
 <body>
@@ -32,30 +48,51 @@
   </nav>
 
  <!-- Card 1 -->
-  <div class="card bg-transparent text-white float-right rightCard">
+  <div class="card bg-transparent text-white float-right rightCard crisisCard">
     <div class="card-body prplGradientCard">
-      <h5 class="card-title">Send a message to get help</h5>
-      <a href="#" class="card-link fa fa-comment-dots fa-3x whtIconML"></a>
+      <h5 class="card-title">Crisis Connection</h5>
     </div>
   </div>
-  <br>
 
   <!-- Card 2 -->
-  <div class="card bg-transparent text-white float-left leftCard">
+  <div class="card bg-transparent text-white float-left leftCard crisisCard">
     <div class="card-body grnGradientCard">
-      <h5 class="card-title">Call the Suicide Prevention Hotline</h5>
-      <a href="#" class="card-link fa fa-phone-alt fa-3x whtIconML"></a>
+      <a href="tel:#">
+        <i class="fas fa-phone-alt fa-2x float-left mr-1"></i>
+        <h4 class="card-title">Get Help Now</h4>
+      </a>
+      <p class="mb-0">Call the Suicide Prevention Hotline</p>
     </div>
   </div>
   <br>
 
   <!-- Card 3 -->
-  <div class="card bg-transparent text-white float-right rightCard">
+  <div class="card bg-transparent text-white float-right rightCard crisisCard">
     <div class="card-body aquaGradientCard">
-      <h5 class="card-title">Edit Contacts in Safety Plan</h5>
-      <a href="safety_plan.html" class="card-link fa fa-edit fa-3x whtIconML"></a>
+      <a href="tel:#">
+        <i class="fas fa-comments fa-2x float-left mr-1"></i>
+        <h4 class="card-title">Chat with Lifeline</h4>
+      </a>
+      <p class="ccDescription mb-0">Send a message via Lifeline Chat. Available 24/7 across the U.S.</p>
     </div>
   </div>
+
+    <!-- Card 4 -->
+    <div class="card bg-transparent text-white float-left leftCard crisisCardBottom">
+      <div class="card-body blueGradientCard">
+        <h5>Connect with someone you know:</h5>
+        <a href="tel:#">Contact 1: 888.888.888</a><br>
+        <a href="tel:#">Contact 2: 888.888.888</a><br>
+        <a href="tel:#">Contact 3: 888.888.888</a>
+        <div class="ccButton mt-2">
+          <a href="safety_plan.html">
+            <i class="fas fa-edit fa-1x float-left mr-1"></i>
+            <p class="ccLink float-left mb-0">Edit contacts in Safety Plan</p>
+            <i class="fas fa-angle-right fa-1x float-left ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
 
   <!-- Footer -->
   <div class="container fixed-bottom">
