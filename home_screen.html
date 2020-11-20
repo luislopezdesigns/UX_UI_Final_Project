@@ -126,7 +126,9 @@
       -webkit-transform: rotate(-180deg);
       transform: rotate(-180deg);
   }
-
+.topNavIcon{
+  color: #FAC900;
+}
   </style>
 
 </head>
@@ -138,11 +140,18 @@
     <a class="navbar-brand" href="home_screen.html">
       <img class="logoHrzl" src="images/logo_hrzl.svg">
     </a>
-    <span class="navbar-item">
-      <a href="notifications.html">
-        <img src="images/BellNotification.png" alt="">
-      </a>
-    </span>
+    <a href="profile_screen.html">
+      <span class="fa-stack fa-1x">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-user fa-stack-1x fa-inverse topNavIcon"></i>
+      </span>
+    </a>
+    <a href="notifications.html">
+      <span class="fa-stack fa-1x">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-bell fa-stack-1x fa-inverse topNavIcon"></i>
+      </span>
+    </a>
   </nav>
 
   <!-- Accordian -->
