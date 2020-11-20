@@ -116,20 +116,20 @@
       margin-bottom: 5px;
       padding-left: 10px;
     }
-.activityCard i{
-  padding: 5px 10px;
-  color: #FAC900;
-}
-.moodSelectionContainer{
-  padding-top: 30px;
-}
-.emoticon{
-  text-align: center;
-}
-.emoticon p{
-  padding: 5px;
-}
-.recordYourThoughts{
+    .activityCard i{
+      padding: 5px 10px;
+      color: #FAC900;
+    }
+    .moodSelectionContainer{
+      padding-top: 30px;
+    }
+    .emoticon{
+      text-align: center;
+    }
+    .emoticon p{
+      padding: 5px;
+    }
+    .recordYourThoughts{
       border: 0;
       background-image: linear-gradient(to bottom, #2A9F51, #155029);
       border-top-right-radius: 44px;
@@ -150,28 +150,28 @@
     .active {
       color: #2A9F51 !important;
       background-color: transparent;
-}
-.emoteButt{
-  background-color: transparent;
-    color: #4A1550;
-    width: auto;
-    border: none;
-    margin-bottom: 10px;
-    padding: 0px;
-}
-.emoteButt:not(:disabled):not(.disabled).active, .emoteButt:not(:disabled):not(.disabled):active, .show>.emoteButt.dropdown-toggle{
-  background-color: transparent;
-  border: none;
-  box-shadow: none!important;
-}
-.emoteButt:focus, .emoteButt:active{
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-.emoteButt p{
-  margin-bottom: 0px;
-}
+    }
+    .emoteButt{
+      background-color: transparent;
+      color: #4A1550;
+      width: auto;
+      border: none;
+      margin-bottom: 10px;
+      padding: 0px;
+    }
+    .emoteButt:not(:disabled):not(.disabled).active, .emoteButt:not(:disabled):not(.disabled):active, .show>.emoteButt.dropdown-toggle{
+      background-color: transparent;
+      border: none;
+      box-shadow: none!important;
+    }
+    .emoteButt:focus, .emoteButt:active{
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+    .emoteButt p{
+      margin-bottom: 0px;
+    }
   </style>
 
 </head>
@@ -179,16 +179,26 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">
-      <img class="logoHrzl" src="images/Logo_hrzl.png">
-    </a>
-    <button type="button" class="notificationStyle">
-      <i class="fas fa-circle fa-stack-2x" style="margin-left: 120px;"></i>
-      <i class="fas fa-home fa-stack-1x fa-inverse fa-globe"
-        style=" margin-left: 120px; padding-top: 5px; color: #FAC900;"></i>
-      <span class="badge badge-dark" style="margin-left: -12px; background-color: #942A9F; ">4</span>
-    </button>
+  <nav class="navbar navbar-expand-lg navbar-light" style="padding-bottom: 10px;">
+    <div>
+      <a class="navbar-brand" href="home_screen.html">
+        <img class="logoHrzl" src="images/logo_hrzl.svg">
+      </a>
+    </div>
+    <div class="topNavIcons">
+      <a href="profile_screen.html">
+        <span class="fa-stack fa-1x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-user fa-stack-1x fa-inverse topNavIconColorChange"></i>
+        </span>
+      </a>
+      <a href="notifications.html">
+        <span class="fa-stack fa-1x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-bell fa-stack-1x fa-inverse topNavIconColorChange"></i>
+        </span>
+      </a>
+    </div>
   </nav>
 
 <div class="container cardWrapper">

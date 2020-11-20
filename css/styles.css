@@ -12,7 +12,6 @@ body {
 
 /* Header Styles */
 h1 {
-    font-family: Arial;
     font-size: 35px;
     padding-bottom: 10px;
 }
@@ -27,6 +26,14 @@ h6 {
 h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     color: #942A9F;
 }
+
+/* Top Navigation Styles */
+.topNavIconColorChange{
+    color: #FAC900;
+  }
+  .topNavIcons{
+    margin-left: -15px;
+  }
 /* Welcome Styles */
 .welcomeContent{
     text-align: center;
