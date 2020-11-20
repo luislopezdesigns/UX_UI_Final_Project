@@ -39,16 +39,45 @@
       </a>
     </div>
   </nav>
-
-   
         
-        <div class="card bg-transparent text-white float-right" style="border: none; max-width: 85%; ">
-            <img src="images/dailyActivityExample.png" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <button type="button" class="btn btn-primary" style="margin-top: 125%;">Mark as Complete</button>
-            </div>
+  <div class="card bg-transparent text-white float-right" style="border: none; max-width: 85%;">
+    <img src="images/dailyActivityExample.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" style="margin-top: 125%; border-radius: 44px; background-color: white; color: #942A9F; border: 1px solid #942A9F" data-toggle="modal" data-target="#completedModal">
+        Mark as Complete
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="completedModal" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content colorPrple">
+          <div class="modal-header centerHeader">
+            <i class="fas fa-award fa-lg fa-4x facebookModal"></i>
+          </div>
+          <div class="modal-body emailPadding">
+            <h3 class="text-center">Congratulations!</h3>
+            <p class="text-center">You Completed the Daily Activity!</p>
+          </div>
+          <div class="modal-footer">
+            <a href="activities_screen.html" type="button" class="btn btn-primary">Back to Activities</a>
+            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
 
+
+  <!-- Back to Activities Button -->
+  <div class="card bg-transparent text-white float-right rightCard activityBackButton">
+    <div class="card-body aquaGradientCard">
+      <a href="activities_screen.html">
+        <h5 class="card-title float-left mb-0">Back to Activities</h5>
+        <i class="fas fa-angle-right fa-inverse pl-1"></i> 
+      </a>
+    </div>
+  </div>
         
   <!-- Footer -->
   <div class="container fixed-bottom">
