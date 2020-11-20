@@ -29,7 +29,7 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 
 /* Top Navigation Styles */
 .topNavIconColorChange{
-    color: #FAC900;
+    color: #FAC900!important;
   }
   .topNavIcons{
     margin-left: -15px;
@@ -175,6 +175,22 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     margin-top: 35px;
 }
 
+.ccDescription{
+    line-height: 1.3em!important;
+  }
+  .crisisCard{
+    margin-top: 1vh!important;
+    margin-bottom: 1vh!important;
+  }
+  .crisisCardBottom{
+    margin-top: 1vh!important;
+    margin-bottom: 18vh!important;
+  }
+  .ccButton i{
+    padding-top: 2px!important;
+  }
+
+
 /* Tab Styles */
 .fa-globe{
     text-shadow:1px 1px #942A9F;
@@ -259,8 +275,8 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 /* Card Styles */
 .card{
     border: none;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 .rightCard{
     width: 80%;
