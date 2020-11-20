@@ -151,15 +151,6 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 
 
 
-#hamburger  {
-    width: 35px;
-}
-#phoneLink  {
-    width: 45px;
-    position: absolute;
-    right: 100px;
-    top: 25px;
-}
 #activities {
     display: flex;
     justify-items: flex-end;
@@ -174,22 +165,6 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 .passwordResetLogo{
     margin-top: 35px;
 }
-
-.ccDescription{
-    line-height: 1.3em!important;
-  }
-  .crisisCard{
-    margin-top: 1vh!important;
-    margin-bottom: 1vh!important;
-  }
-  .crisisCardBottom{
-    margin-top: 1vh!important;
-    margin-bottom: 18vh!important;
-  }
-  .ccButton i{
-    padding-top: 2px!important;
-  }
-
 
 /* Tab Styles */
 .fa-globe{
@@ -275,8 +250,6 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
 /* Card Styles */
 .card{
     border: none;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
 }
 .rightCard{
     width: 80%;
@@ -314,6 +287,22 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     color: white;
     margin-left: 100px;
 }
+
+/* Crises Connection */
+.ccDescription{
+    line-height: 1.3em!important;
+  }
+  .crisisCard{
+    margin-top: 1vh!important;
+    margin-bottom: 1vh!important;
+  }
+  .crisisCardBottom{
+    margin-top: 1vh!important;
+    margin-bottom: 18vh!important;
+  }
+  .ccButton i{
+    padding-top: 2px!important;
+  }
 
 /* Mood Tracker */
 .moodTracker-topCard{
