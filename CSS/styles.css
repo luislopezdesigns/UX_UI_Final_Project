@@ -412,3 +412,6 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     padding: 30px;
     color: #942A9F;
 }
+.iconBlock p{
+    color: #1a426a;
+}
