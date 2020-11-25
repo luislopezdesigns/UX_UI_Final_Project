@@ -259,35 +259,44 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     width: 80%;
     margin-right: 20%;
 }
-.prplGradientCard{
+.prplGradientCard, .prplGradientCard-left{
     background-image: linear-gradient(to bottom, #942A9F, #4A1550);
     box-shadow: 0px 3px 12px 0px rgba(24, 7, 26, 0.4);
 }
 .grnGradientCard{
     background-image: linear-gradient(to bottom, #2A9F51, #155029);
+    box-shadow: 0px 3px 12px 0px rgba(7, 26, 13, 0.4);
+}
+.grnGradientCard, .blueGradientCard, .prplGradientCard-left{
     border-top-right-radius: 44px; 
     border-bottom-right-radius: 44px;
-    box-shadow: 0px 3px 12px 0px rgba(7, 26, 13, 0.4);
 }
 .blueGradientCard{
     background-image: linear-gradient(to bottom, #2766A7, #1a426a);
-    border-top-right-radius: 44px; 
-    border-bottom-right-radius: 44px;
     box-shadow: 0px 3px 12px 0px rgba(7, 26, 13, 0.4);
 }
 .aquaGradientCard{
     background-image: linear-gradient(to bottom, #10A1AF, #085158); 
     box-shadow: 0px 3px 12px 0px rgba(2, 24, 26, 0.4);
 }
-.prplGradientCard, .aquaGradientCard{
+.prplGradientCard, .aquaGradientCard, .ltgrnGradientCard-right{
     border-top-left-radius: 44px; 
     border-bottom-left-radius: 44px;
+}
+.ltgrnGradientCard-right{
+    background-image: linear-gradient(to bottom, #7BC937, #3E661C);
+    box-shadow: 0px 3px 12px 0px rgba(7, 26, 13, 0.4);
 }
 .whtIconML{
     color: white;
     margin-left: 100px;
 }
-
+.superOrangeLink{
+    color: #FAC900;
+}
+.activityHeader{
+    letter-spacing: .03em;
+}
 /* Crises Connection */
 .ccDescription{
     line-height: 1.3em!important;
