@@ -292,10 +292,24 @@ h1, splashDescritpion h1, .colorPrple, .onboardSubtext a{
     margin-left: 100px;
 }
 .superOrangeLink{
-    color: #FAC900;
+    color: #FAC900!important;
 }
 .activityHeader{
     letter-spacing: .03em;
+}
+.noticeCol{
+    border-radius: 44px;
+    margin: 15px 15px 0px 15px;
+}
+.noticeTxt{
+    color: white;
+    font-size: .9rem;
+    line-height: 1.3em;
+}
+.noticeIcon{
+    height: 1.2em!important;
+    line-height: 1.2em!important;
+    width: 1.5em!important;
 }
 /* Crises Connection */
 .ccDescription{
